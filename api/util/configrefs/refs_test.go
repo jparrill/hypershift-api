@@ -6,8 +6,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/sets"
 
+	hyperv1 "github.com/jparrill/hypershiftapi/v1beta1"
 	configv1 "github.com/openshift/api/config/v1"
-	hyperv1 "github.com/openshift/hypershiftapi/v1beta1"
 )
 
 func TestKnownConfigMapRefs(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 
 	configv1 "github.com/openshift/api/config/v1"
 
-	"github.com/openshift/hypershiftapi/util/ipnet"
+	"github.com/jparrill/hypershiftapi/util/ipnet"
 )
 
 func init() {

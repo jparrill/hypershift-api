@@ -3,8 +3,8 @@ package hypershiftapi
 import (
 	"os"
 
-	hyperv1alpha1 "hypershiftapi/v1alpha1"
-	hyperv1beta1 "hypershiftapi/v1beta1"
+	hyperv1alpha1 "github.com/jparrill/hypershiftapi/v1alpha1"
+	hyperv1beta1 "github.com/jparrill/hypershiftapi/v1beta1"
 
 	snapshotv1 "github.com/kubernetes-csi/external-snapshotter/client/v6/apis/volumesnapshot/v1"
 	configv1 "github.com/openshift/api/config/v1"

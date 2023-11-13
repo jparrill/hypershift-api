@@ -7,10 +7,10 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/conversion"
 
+	"github.com/jparrill/hypershiftapi/util/configrefs"
+	"github.com/jparrill/hypershiftapi/util/ipnet"
+	"github.com/jparrill/hypershiftapi/v1beta1"
 	configv1 "github.com/openshift/api/config/v1"
-	"github.com/openshift/hypershiftapi/util/configrefs"
-	"github.com/openshift/hypershiftapi/util/ipnet"
-	"github.com/openshift/hypershiftapi/v1beta1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
